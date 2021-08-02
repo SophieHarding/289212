@@ -1,0 +1,62 @@
+INSERT INTO burgers(burger, price) VALUES ('Classic Burger', 4.99);
+INSERT INTO happy(restaurant, address, price) VALUES ()
+
+
+	INSERT INTO happy(restaurant, address, price) VALUES ('Mexico','41 Dixon Street, Te Aro, Wellington 6011','$$-$$$');
+	INSERT INTO happy(restaurant, address, price) VALUES ('Origami','158 Cuba Street, Te Aro, Wellington 6011','$$-$$$');
+	INSERT INTO happy(restaurant, address, price) VALUES ('Gypsy Kitchen','37 Jessie Street, 102/104 Tory Street, Te Aro, Wellington 6011','$$-$$$');
+	INSERT INTO happy(restaurant, address, price) VALUES ('Dragonfly','70 Courtenay Place, Te Aro, Wellington, 6011','$$-$$$');
+	INSERT INTO happy(restaurant, address, price) VALUES ('The Botanist','219 Onepu Road, Lyall Bay, Wellington 6022','$$-$$$');
+	INSERT INTO happy(restaurant, address, price) VALUES ('Charley Noble','Ground Huddart Parker Building, 1 Post Office Square, Wellington 6011','$$$');
+	INSERT INTO happy(restaurant, address, price) VALUES ('Mr Go''s','59 Taranaki Street, Te Aro, Wellington 6011','$$-$$$');
+	INSERT INTO happy(restaurant, address, price) VALUES ('Scopa','141 Cuba Street, Te Aro, Wellington 6011','$$-$$$');
+	INSERT INTO happy(restaurant, address, price) VALUES ('Apache','122 Wakefield Street, Te Aro, Wellington 6011','$$-$$$');
+	INSERT INTO happy(restaurant, address, price) VALUES ('Monsoon Poon','12 Blair Street, Te Aro, Wellington 6011','$$-$$$');
+	INSERT INTO happy(restaurant, address, price) VALUES ('Chow','45 Tory Street, Te Aro, Wellington 6011','$$-$$$');
+	INSERT INTO happy(restaurant, address, price) VALUES ('Restaurant 88','88 Tory Street, Te Aro, Wellington 6011','$$-$$$');
+	INSERT INTO happy(restaurant, address, price) VALUES ('La Bella Italia','10 Nevis Street, Petone, Lower Hutt 5045','$$-$$$');
+	INSERT INTO happy(restaurant, address, price) VALUES ('The Flying Burrito Brothers','182 Cuba Street, Te Aro, Wellington 6011','$$-$$$');
+	INSERT INTO happy(restaurant, address, price) VALUES ('Mockingbird ','8 Courtenay Place, Te Aro, Wellington 6011','$$-$$$');
+
+
+INSERT INTO sad(restaurant, address, price) VALUES ('Mexico','41 Dixon Street, Te Aro, Wellington 6011','$$-$$$');
+INSERT INTO sad(restaurant, address, price) VALUES ('Gypsy Kitchen','37 Jessie Street, 102/104 Tory Street, Te Aro, Wellington 6011','$$-$$$');
+INSERT INTO sad(restaurant, address, price) VALUES ('Lone Star','298 Jackson Street, Buick Street, Petone, Lower Hutt 5012','$$-$$$');
+INSERT INTO sad(restaurant, address, price) VALUES ('The Botanist','219 Onepu Road, Lyall Bay, Wellington 6022','$$-$$$');
+INSERT INTO sad(restaurant, address, price) VALUES ('Burger Liquor','129 Willis Street, Te Aro, Wellington 6011','$$-$$$');
+INSERT INTO sad(restaurant, address, price) VALUES ('Little Penang','175 Victoria Street, Te Aro, Wellington 6011','$');
+INSERT INTO sad(restaurant, address, price) VALUES ('Taste of Home','128 Vivan Street, Te Aro, Wellington 6011','$');
+INSERT INTO sad(restaurant, address, price) VALUES ('Chow','45 Tory Street, Te Aro, Wellington 6011','$$-$$$');
+INSERT INTO sad(restaurant, address, price) VALUES ('La Bella Italia','10 Nevis Street, Petone, Lower Hutt 5045','$$-$$$');
+INSERT INTO sad(restaurant, address, price) VALUES ('Great India','141 Manners Street, Te Aro, Wellington 6011','$$-$$$');
+INSERT INTO sad(restaurant, address, price) VALUES ('The Flying Burrito Brothers','182 Cuba Street, Te Aro, Wellington 6011','$$-$$$');
+INSERT INTO sad(restaurant, address, price) VALUES ('Mockingbird ','8 Courtenay Place, Te Aro, Wellington 6011','$$-$$$');
+
+
+INSERT INTO cold(restaurant, address, price) VALUES ('Mexico','41 Dixon Street, Te Aro, Wellington 6011','$$-$$$');
+INSERT INTO cold(restaurant, address, price) VALUES ('Lone Star','298 Jackson Street, Buick Street, Petone, Lower Hutt 5012','$$-$$$');
+INSERT INTO cold(restaurant, address, price) VALUES ('The Botanist','219 Onepu Road, Lyall Bay, Wellington 6022','$$-$$$');
+INSERT INTO cold(restaurant, address, price) VALUES ('Burger Liquor','129 Willis Street, Te Aro, Wellington 6011','$$-$$$');
+INSERT INTO cold(restaurant, address, price) VALUES ('Little Penang','175 Victoria Street, Te Aro, Wellington 6011','$');
+INSERT INTO cold(restaurant, address, price) VALUES ('Taste of Home','128 Vivan Street, Te Aro, Wellington 6011','$');
+INSERT INTO cold(restaurant, address, price) VALUES ('Monsoon Poon','12 Blair Street, Te Aro, Wellington 6011','$$-$$$');
+INSERT INTO cold(restaurant, address, price) VALUES ('La Bella Italia','10 Nevis Street, Petone, Lower Hutt 5045','$$-$$$');
+INSERT INTO cold(restaurant, address, price) VALUES ('Great India','141 Manners Street, Te Aro, Wellington 6011','$$-$$$');
+INSERT INTO cold(restaurant, address, price) VALUES ('The Flying Burrito Brothers','182 Cuba Street, Te Aro, Wellington 6011','$$-$$$');
+INSERT INTO cold(restaurant, address, price) VALUES ('Mockingbird ','8 Courtenay Place, Te Aro, Wellington 6011','$$-$$$');
+INSERT INTO cold(restaurant, address, price) VALUES ('Mediterranean Food Warehouse','24 Constable Street, Newtown, Wellington 6021','$$');
+
+
+INSERT INTO angry(restaurant, address, price) VALUES ('Mexico','41 Dixon Street, Te Aro, Wellington 6011','$$-$$$');
+INSERT INTO angry(restaurant, address, price) VALUES ('Lone Star','298 Jackson Street, Buick Street, Petone, Lower Hutt 5012','$$-$$$');
+INSERT INTO angry(restaurant, address, price) VALUES ('Burger Liquor','129 Willis Street, Te Aro, Wellington 6011','$$-$$$');
+INSERT INTO angry(restaurant, address, price) VALUES (''Master Kong','33 Customhouse Quay, Wellington Centeral, Wellington 6011','$$-$$$');
+INSERT INTO angry(restaurant, address, price) VALUES ('La Bella Italia','10 Nevis Street, Petone, Lower Hutt 5045','$$-$$$');
+INSERT INTO angry(restaurant, address, price) VALUES ('Great India','141 Manners Street, Te Aro, Wellington 6011','$$-$$$');
+INSERT INTO angry(restaurant, address, price) VALUES ('The Flying Burrito Brothers','182 Cuba Street, Te Aro, Wellington 6011','$$-$$$');
+INSERT INTO angry(restaurant, address, price) VALUES ('Mockingbird ','8 Courtenay Place, Te Aro, Wellington 6011','$$-$$$');
+
+
+
+
+
