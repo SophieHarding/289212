@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mood to Food</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='screen.css') }}">
+</head>
+
+<body>
+    <div id="header">
+      <h1>Mood to Food</h1>
+    <img id=logo src="{{ url_for('static', filename='logo.png') }}" width="100"/>
+    
+  </div>
+    
+    <div id="options">
+      <div><img src="{{ url_for('static', filename='happy.png') }}" width="100"/></div>
+      <div><img src="{{ url_for('static', filename='sad.png') }}" width="100"/></div>
+      <div><img src="{{ url_for('static', filename='cold.png') }}" width="100"/></div>
+      <div><img src="{{ url_for('static', filename='tired.png') }}" width="100"/></div>
+    </div>
+
+   
+</body>
+</html>
+
+
+

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Happy - Mood to Food</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='screen.css') }}">
+
+</head>
+<body>
+
+  <div>
+    <h2>Sad</h2>
+    <ul class="menu-items">
+      {% for resturant in sad %}
+      <li>
+        <input type="number" min="0" name="{{ restaurant[0] }}" autocomplete="off" />
+        {{ burger[0] }}
+        <span class="price">{{ burger[1] }}</span>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</body>
+
+</html>
+
