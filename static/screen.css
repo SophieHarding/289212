@@ -7,6 +7,7 @@
     color: #2A8;
     font-family: 'Monda', sans-serif;
     margin: 0;
+    text-align: center;
   } 
 #logo {
     padding-left: auto;
@@ -14,9 +15,9 @@
     width: 100%;  /*change*/
   } 
  
-  /* #header {
-    background-color: #DFE;
-    background-image: url(checks.svg), url(checks.svg);
+ #header {
+    background-color: rgb(29, 121, 75);
+    background-image: url(logo.PNG);
     background-position: top, bottom;
     background-repeat: repeat-x;
     background-size: 35px;
@@ -25,7 +26,12 @@
     padding-top: 50px;
     padding-bottom: 40px;
     text-align: center;
-  } */ 
+  } 
+
+  h1 {
+    color:firebrick;
+    text-align: center;
+  }
 
  
   
@@ -88,11 +94,3 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
   
   }
 
- 
-  #footer {
-    color: white;
-    font-size: 0.8em;
-    opacity: 0.4;
-    padding: 1em;
-    text-align: center;
-  }

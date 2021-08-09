@@ -3,6 +3,7 @@ import sqlite3
 
 app = Flask(__name__)
 
+MENUDB = 'menu.db'
 def fetchMenu(con):
     happy = []
     free = '0'
@@ -31,6 +32,13 @@ def fetchMenu(con):
 @app.route('/')
 def index():
     return render_template('index.html')
+
+@app.route('/happy')
+def happy():
+    con = sqlite3.connect(MENUDB)
+    menu = fetchMenu(con)
+    con.close()
+    return render_template('happy.html', happy=menu['happy'])
 
 # @app.route('/happy')
 # def index():
