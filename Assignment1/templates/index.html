@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block title %}Mood to Food{% endblock %}
+   
+
+
+{% block content %}
+  <div id="header">
+    <div><img src="static/logo.png", width="500"/></div>
+      
+     <p>In a mood for food? <br> <em>Click on an icon below.</em>
+     </p>
+  </div>
+
+  <div id="table">
+
+    <div>
+      <a href="/happy"><img src="static/happy.PNG"/></a>
+    </div>
+
+    <div>
+      <a href="/cold"><img src="static/cold.PNG"/></a>
+    </div>
+
+    <div>
+      <a href="/sad"><img src="static/sad.PNG"/></a>
+    </div>
+
+    <div>
+      <a href="/angry"><img src="static/angry.PNG"/></a>
+    </div>
+
+  </div>
+
+  {% endblock %}

@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+background-color: white;
+color: black;
+border: dashed;
+/* border-color: pink; */
+}
+
+
+#header {
+    background-color: #FAC9B8;
+    text-align: center; 
+    margin: 0;
+    padding: 0;
+    border-bottom:dashed;
+    
+   
+}
+
+h1 {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Bungee Shade', cursive;
+    /* color: white; */
+    text-align: center;
+    font-size: 70px;
+ 
+}
+
+h2{
+    font-family: 'Montserrat', serif;
+}
+
+h3 {
+    font-family: 'Montserrat', serif;
+}
+
+p {
+    color: darkslategray;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+#table {
+    background-color: #DB8A74;
+    display: grid;
+    padding: 20px;
+    margin: 0;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+   
+}
+
+#table img {
+    width:300px;
+    padding: 10px;
+    
+}
+
+/* makes the images go longways*/
+/* #table div {
+    grid-column: span 4;
+    
+} */
+/*hover thing needs to go here*/
+
+#mood_table {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+}
+
+#mood_table img {
+    width: 600px;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+    
+}
+
+  /* media query */
+  
+  @media only screen and (min-width: 720px) {
+  
+    #table div {
+      grid-column: auto;
+      margin: 0;
+    }
+  
+    /* #table div:nth-child(5) {
+      border: none;
+      border-left: 3px solid #2A8;
+      border-right: 3px solid #2A8;
+    }
+   */
+  }

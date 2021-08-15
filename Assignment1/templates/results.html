@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+
+{% block title %}{{ title }} - Mood to Food{% endblock %}
+ 
+{% block head %}
+    {{ super() }}
+    <style>
+      body {
+        background-color:{{ bg_color }};
+      }
+    </style>
+
+{% endblock %}
+
+{% block content %}
+
+ <div id="mood_table" >
+    <div>
+        <img src="static/{{ image }}" />
+    </div>
+    
+    <div>
+        <h1>{{ title }}</h1>
+        {% for restaurant in restaurants %}
+            <div>
+                <h2>{{ restaurant[1] }}</h2>
+                <p>{{ restaurant[2] }} |<em>{{ restaurant[3] }}</em></p>
+                <hr />
+            </div>
+        {% endfor %}
+</div>
+
+</div>   
+
+{% endblock %}
