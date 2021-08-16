@@ -21,6 +21,12 @@ color: black;
    
 }
 
+#header img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
 h1 {
     margin: 0px;
     padding: 0px;
@@ -58,9 +64,17 @@ p {
 }
 
 #table img {
-    width:300px;
-    padding: 10px;
     
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    /* padding: 10px; */
+    
+    
+}
+
+.img {
+  padding: 5px;
 }
 
 #table div {
@@ -95,14 +109,22 @@ p {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
+    
+    
 }
 
 #mood_table img {
-    width: 600px;
+   max-width: 100%;
+    max-height: 100%;
     align-items: center;
+    object-fit: contain;
     margin: auto;
-    padding: 10px;
+    /* padding: 10px; */
     
+}
+
+.restaurants {
+  padding: 10px;
 }
 
 #mood_table div {
