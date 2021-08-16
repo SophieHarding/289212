@@ -4,7 +4,7 @@
 body {
 background-color: white;
 color: black;
-border: dashed;
+/* border: dashed; */
 /* border-color: pink; */
 }
 
@@ -12,9 +12,11 @@ border: dashed;
 #header {
     background-color: #FAC9B8;
     text-align: center; 
+    align-items: center;
     margin: 0;
     padding: 0;
     border-bottom:dashed;
+    border-top: dashed;
     
    
 }
@@ -51,6 +53,7 @@ p {
     margin: 0;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
+    align-items: center;
    
 }
 
@@ -60,11 +63,32 @@ p {
     
 }
 
-/* makes the images go longways*/
-/* #table div {
+#table div {
     grid-column: span 4;
-    
-} */
+    margin: 0;
+  }
+  
+  /* #table div:nth-child(4) {
+    border-bottom: 3px solid #2A8;
+    border-top: 3px solid #2A8;
+  } */
+  
+  /* media query */
+  
+  @media only screen and (min-width: 720px) {
+  
+    #table div {
+      grid-column: auto;
+      margin: 0;
+    }
+  
+    /* #table div:nth-child(3) {
+      border: none;
+      border-left: 3px solid #2A8;
+      border-right: 3px solid #2A8;
+    } */
+  
+  }
 /*hover thing needs to go here*/
 
 #mood_table {
@@ -81,19 +105,37 @@ p {
     
 }
 
+#mood_table div {
+    grid-column: span 2;
+    margin: 0;
+  }
+  
+  /* #mood_table div:nth-child(4) {
+    border-bottom: 3px solid #2A8;
+    border-top: 3px solid #2A8;
+  } */
+  
   /* media query */
   
   @media only screen and (min-width: 720px) {
   
-    #table div {
+    #mood_table div {
       grid-column: auto;
       margin: 0;
     }
   
-    /* #table div:nth-child(5) {
+    /* #mood_table div:nth-child(3) {
       border: none;
       border-left: 3px solid #2A8;
       border-right: 3px solid #2A8;
-    }
-   */
+    } */
+  
+  }
+
+#footer {
+    background-color: #ab6450;
+    text-align: center;
+    font-family:'Montserrat', sans-serif;
+    padding: 10px;
+    font-size: 10px;
   }

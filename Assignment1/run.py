@@ -20,9 +20,9 @@ def happy():
         restaurants.append(list(row))
     con.close()
     return render_template('results.html', 
-                            title='happy', 
+                            title='Happy', 
                             image='happy.PNG',
-                            # bg_color='#552F2F',
+                            bg_color='#ffd9d9',
                             restaurants=restaurants)
 
 @app.route('/sad')
@@ -35,9 +35,9 @@ def sad():
         restaurants.append(list(row))
     con.close()
     return render_template('results.html',
-                             title='sad', 
+                             title='Sad', 
                              image='sad.PNG',
-                            #  bg_color='#2E71A7',
+                             bg_color='#2E71A7',
                              restaurants=restaurants)
 
 @app.route('/cold')
@@ -50,9 +50,9 @@ def cold():
         restaurants.append(list(row))
     con.close()
     return render_template('results.html',
-                             title='cold', 
+                             title='Cold', 
                              image='cold.PNG',
-                            #  bg_color='#3B4A51',
+                             bg_color='#d0e7f2',
                              restaurants=restaurants)
 
 @app.route('/angry')
@@ -65,7 +65,7 @@ def angry():
         restaurants.append(list(row))
     con.close()
     return render_template('results.html',
-                             title='angry', 
+                             title='Angry', 
                              image='angry.PNG',
-                            #  bg_color='#3B4A51',
+                             bg_color='#c7a9ab',
                              restaurants=restaurants)
