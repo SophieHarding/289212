@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+    <meta charset="utf-8" />
+    <title>212 Coffee</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <!-- javascript animation libaray, GSAP -->
+
+    <style>
+        html, body {
+            align-items: center;
+            background-color: #888;
+            display: flex;
+            height: 100%;
+            justify-content: center;
+        }
+
+        svg{
+            outline: 1px dashed #666;
+        }
+
+        svg .stroked {
+            stroke: black;
+            stroke-width: 15;
+        }
+
+    </style>
+
+  </head>
+
+  <body>
+
+    <svg width="800" height="395">
+        <rect x="260" y="115" width="280" height="200" fill="maroon" class="stroked" />
+
+        <!-- define linear gradient -->
+        <linearGradient id="steel"> 
+            <stop offset="0%" style="stop-color:  #666;" />
+            <stop offset="50%" style="stop-color:  #FFF;" />
+            <stop offset="65%" style="stop-color:  #888;" />
+            <stop offset="100%" style="stop-color:  #FFF;" />
+        </linearGradient>
+
+        <rect x="250" y="35"  rx="5" ry="5" width="300" height="80" class="stroked" fill="url(#steel)" />
+        <rect x="250" y="315" rx="5" ry="5" width="300" height="45" class="stroked" fill="url(#steel)" />
+        <rect x="350" y="115" rx="5" ry="5" width="100" height="45" class="stroked" fill="url(#steel)" />
+
+        <ellipse cx="290" cy="75" rx="15" ry="15" id="startbutton" class="stroked" fill="#F00" />
+        
+        <path
+            stroke-linejoin="round"
+            class="stroked"
+            fill="0EE" fill-opacity="0.4"
+            id="cup"
+            d="M335 230
+               L465 230
+               C465 230, 465 310, 400 310
+               C335 310, 335 230, 335 230
+               Z"
+        />
+    </svg>
+
+    <script>
+    </script>
+
+  </body>
+
+</html>
