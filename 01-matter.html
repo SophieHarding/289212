@@ -56,10 +56,11 @@
 
     // bump cube button
     document.getElementById('bumpCube').addEventListener('click', () => {
-      //Matter.Body.setVelocity(boxes[0], {x:0, y:-10});
-      //console.log(boxes[0].position);
-      //Matter.Body.applyForce(boxes[0], boxes[0].position, {x:0, y:-0.1});
-      Matter.Body.applyForce(boxes[0], {x:boxes[0].position.x-5, y:boxes[0].position.y}, {x:0, y:-0.1});
+    //Matter.Body.setVelocity(boxes[0], {x:0, y:-10});
+    //console.log(boxes[0].position);
+    let xypos = {x: boxes[0].position.x-5, y: boxes[0].position.y}
+    Matter.Body.applyForce(boxes[0], xypos, {x:0, y:-0.1});
+    // Matter.Body.applyForce(boxes[0], {x:boxes[0].position.x-5, y:boxes[0].position.y}, {x:0, y:-0.1});
     })
   </script>
 
